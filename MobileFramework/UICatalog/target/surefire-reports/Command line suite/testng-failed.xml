@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="iPhone.AlertsTest">
+        <methods>
+          <include name="clickOnAlertPageShowOkCancel"/>
+          <include name="setUp"/>
+          <include name="clickOnAlertPageShowCustomized"/>
+          <include name="clickOnAlertPageShowSimple"/>
+          <include name="clickOnAlertViewShowOkSimple"/>
+        </methods>
+      </class> <!-- iPhone.AlertsTest -->
+      <class name="iPhone.PickerTest">
+        <methods>
+          <include name="testUIPicker"/>
+        </methods>
+      </class> <!-- iPhone.PickerTest -->
+      <class name="iPhone.ButtonTest">
+        <methods>
+          <include name="clickOnImageButton"/>
+          <include name="clickOnbuttonWithImage"/>
+        </methods>
+      </class> <!-- iPhone.ButtonTest -->
+      <class name="iPhone.SegmentTest">
+        <methods>
+          <include name="uISegementControlStyleBarTintClick"/>
+          <include name="uISegementControlStyleBorderedClick"/>
+          <include name="cuISegementControlStyleBarClick"/>
+          <include name="uISegementControlStyleBarImageClick"/>
+          <include name="uISegementedControlButtonClick"/>
+        </methods>
+      </class> <!-- iPhone.SegmentTest -->
+      <class name="iPhone.TextFieldsTest">
+        <methods>
+          <include name="navigate"/>
+        </methods>
+      </class> <!-- iPhone.TextFieldsTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

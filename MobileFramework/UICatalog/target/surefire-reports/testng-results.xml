@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="13" failed="0" total="13" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="58" started-at="2018-10-15T23:36:32Z" finished-at="2018-10-15T23:36:32Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="58" started-at="2018-10-15T23:36:32Z" finished-at="2018-10-15T23:36:32Z">
+      <class name="iPhone.ButtonTest">
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="clickOnImageButton()[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="clickOnImageButton" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnImageButton -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="clickOnbuttonWithImage()[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="clickOnbuttonWithImage" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnbuttonWithImage -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.ButtonTest@5b275dab]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- iPhone.ButtonTest -->
+      <class name="iPhone.AlertsTest">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at common.Base.setUp(Base.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="clickOnAlertPageShowCustomized()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="clickOnAlertPageShowCustomized" duration-ms="1" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlertPageShowCustomized -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="clickOnAlertPageShowOkCancel()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="clickOnAlertPageShowOkCancel" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlertPageShowOkCancel -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="clickOnAlertPageShowSimple()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="clickOnAlertPageShowSimple" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlertPageShowSimple -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="clickOnAlertViewShowOkSimple()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="clickOnAlertViewShowOkSimple" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlertViewShowOkSimple -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.AlertsTest@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- iPhone.AlertsTest -->
+      <class name="iPhone.SegmentTest">
+        <test-method status="SKIP" signature="cuISegementControlStyleBarClick()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="cuISegementControlStyleBarClick" duration-ms="1" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuISegementControlStyleBarClick -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.SegmentTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.SegmentTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="uISegementControlStyleBarImageClick()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="uISegementControlStyleBarImageClick" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uISegementControlStyleBarImageClick -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.SegmentTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="uISegementControlStyleBarTintClick()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="uISegementControlStyleBarTintClick" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uISegementControlStyleBarTintClick -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.SegmentTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="uISegementControlStyleBorderedClick()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="uISegementControlStyleBorderedClick" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uISegementControlStyleBorderedClick -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="navigate" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.SegmentTest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="uISegementedControlButtonClick()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="uISegementedControlButtonClick" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uISegementedControlButtonClick -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.SegmentTest@523884b2]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- iPhone.SegmentTest -->
+      <class name="iPhone.PickerTest">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.PickerTest@cc285f4]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testUIPicker()[pri:0, instance:iPhone.PickerTest@cc285f4]" name="testUIPicker" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUIPicker -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.PickerTest@cc285f4]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- iPhone.PickerTest -->
+      <class name="iPhone.TextFieldsTest">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:iPhone.TextFieldsTest@29774679]" name="setUp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="navigate()[pri:0, instance:iPhone.TextFieldsTest@29774679]" name="navigate" duration-ms="2" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:iPhone.TextFieldsTest@29774679]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2018-10-15T19:36:32Z" finished-at="2018-10-15T19:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+      </class> <!-- iPhone.TextFieldsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
